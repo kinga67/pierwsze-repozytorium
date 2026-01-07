@@ -4,3 +4,5 @@ gdy chcę edytować plik to naciskam ... potem podgląd a następnie gałąź
 pliki należy tworzyć z rozszerzeniami a nazwy powinny być z małej i zawierać myślnik
 rozszerzenie md znaczy markdown
 github nie obsluguje plików word
+
+uwaga-format zapisu i sposób zapisu nie są torsame z tym jak to sie robi profesionalnie - w pierwszej godzinie mogliśmy skupić sie tylko z zapoznanieem wstępnym z działaniem github
