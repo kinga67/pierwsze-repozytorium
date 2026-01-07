@@ -1,1 +1,6 @@
 pierwsza linijka
+gdy nie widać plików to naciskać wszystkie pliki przy wyszukiwaniu
+gdy chcę edytować plik to naciskam ... potem podgląd a następnie gałąź
+pliki należy tworzyć z rozszerzeniami a nazwy powinny być z małej i zawierać myślnik
+rozszerzenie md znaczy markdown
+github nie obsluguje plików word
