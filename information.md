@@ -1,82 +1,234 @@
-# Plan wdrożenia Project Managera w środowisku IT  
-_GitHub & Zarządzanie projektami_
+# Plan wdrożenia Project Managera i Testera (QA) w środowisku IT
+
+*GitHub, Delivery, Jakość*
 
 ## 1. Wprowadzenie
-Ten dokument przedstawia praktyczny, 8-tygodniowy plan wdrożenia Project Managera w środowisku IT z naciskiem na wykorzystanie narzędzi GitHub.  
-Program łączy elementy techniczne i metodyczne oraz skupia się na praktycznych umiejętnościach.
 
-**Cele wdrożenia:**
-- Poznanie specyfiki projektów IT
-- Obsługa GitHub i GitHub Projects
-- Opanowanie workflow deweloperskiego (Git, Pull Requests, Code Review)
-- Planowanie i prowadzenie projektów IT
-- Budowa relacji z zespołem technicznym
+Dokument przedstawia 8-tygodniowy program wdrożeniowy dla dwóch ról:
 
-## 2. Harmonogram wdrożenia (8 tygodni)
+* Project Manager (PM)
+* Tester / Quality Assurance (QA)
 
----
+Program oparty jest na wspólnym fundamencie procesowym i technicznym oraz rozdzielonych ścieżkach specjalizacyjnych. GitHub stanowi centralne narzędzie pracy i źródło prawdy.
 
-### **Tydzień 1–2: Podstawy GitHub**
-**Tydzień 1: Wprowadzenie do Git i GitHub**
-- Opanowanie kontroli wersji, pojęć repozytorium, commit, branch, merge
-- Stworzenie własnego konta i testowego repozytorium
-- Praca z plikami, poznanie składni Markdown
-- Przegląd projektów open-source
+## 2. Cele wdrożenia
 
-**Tydzień 2: Issues, Projects & Collaboration**
-- Zarządzanie zadaniami przez Issues (tworzenie, przypisywanie, etykiety, milestone’y)
-- Organizacja i automatyzacja projektu w GitHub Projects (Kanban, Timeline)
-- Praktyka Code Review i Pull Requests, tworzenie szablonu PR
+**Cele wspólne:**
 
----
+* Zrozumienie specyfiki projektów IT
+* Biegła obsługa GitHub (repozytoria, Issues, Projects)
+* Znajomość workflow developerskiego (Git, PR, Code Review)
+* Praca w modelu Agile/Scrum
+* Wspólny język techniczny zespołu delivery
 
-### **Tydzień 3–4: Procesy IT, workflow, Agile**
-**Tydzień 3: Środowisko deweloperskie i CI/CD**
-- Poznanie cyklu życia kodu i środowisk (development, staging, production)
-- Shadowing z developerem; diagramy techniczne
-- Podstawy automatyzacji i CI/CD z GitHub Actions
+**Cele PM:**
 
-**Tydzień 4: Agile i Scrum w IT**
-- Udział w Sprint Planning, Daily Standup, Review i Retrospective
-- Estymacja zadań (Story Points, Planning Poker)
-- Komunikacja z zespołem developera (1:1, zbieranie feedbacku)
-- Pisanie User Stories, subtaski, Definition of Done
+* Samodzielne prowadzenie projektów IT
+* Planowanie, estymacja, raportowanie
+* Zarządzanie ryzykiem, zakresem i komunikacją
+
+**Cele QA:**
+
+* Zapewnienie jakości produktu
+* Skuteczne testowanie i zgłaszanie defektów
+* Kontrola jakości release’ów
+* Integracja QA z procesem delivery
 
 ---
 
-### **Tydzień 5–6: Zarządzanie projektem IT**
-**Tydzień 5: Planowanie projektu**
-- Tworzenie i priorytetyzacja backlogu oraz roadmapy
-- Zarządzanie ryzykiem i zależnościami (Risk Register, dependency graph)
-- Monitoring metryk (velocity, burndown) i raportowanie postępów
+## 3. Harmonogram wdrożenia (8 tygodni)
+
+### Tydzień 1–2: Fundamenty (wspólne)
+
+#### Tydzień 1: Git i GitHub
+
+* Kontrola wersji: repozytorium, commit, branch, merge
+* Zakładanie i konfiguracja repozytorium
+* Markdown jako standard dokumentacji
+* Przegląd projektów open-source
+
+#### Tydzień 2: Issues, Projects i współpraca
+
+* Zarządzanie zadaniami przez GitHub Issues
+* Etykiety, milestone’y, przypisania
+* GitHub Projects (Kanban, Timeline)
+* Pull Requests i Code Review
+* Szablony PR i Issues
+
+Artefakty:
+
+* Repozytorium testowe
+* Board projektu
+* Szablony PR / Issue
+
+---
+
+## 4. Ścieżki specjalizacyjne
+
+Od Tygodnia 3 program dzieli się na dwie równoległe ścieżki.
+
+---
+
+## Ścieżka Project Manager (PM)
+
+### Tydzień 3–4: Procesy IT i Agile
+
+**Tydzień 3: Środowisko developerskie i CI/CD**
+
+* Cykl życia kodu
+* Środowiska: dev / staging / production
+* Współpraca z developerami
+* Podstawy CI/CD (GitHub Actions)
+
+**Tydzień 4: Agile i Scrum**
+
+* Sprint Planning, Daily, Review, Retro
+* Estymacja (Story Points)
+* User Stories i backlog
+* Definition of Ready / Done
+
+Artefakty:
+
+* Backlog produktu
+* User Stories
+* Diagramy procesu
+
+---
+
+### Tydzień 5–6: Zarządzanie projektem
+
+**Tydzień 5: Planowanie**
+
+* Roadmapa
+* Priorytetyzacja
+* Zarządzanie ryzykiem i zależnościami
+* Metryki: velocity, burndown
 
 **Tydzień 6: Monitoring i doskonalenie**
-- Everyday tracking postępu sprintu i identyfikacja blokerów
-- Quality Assurance – testy, plan testów, zgłaszanie bugów
-- Retrospektywa, wyciąganie wniosków i rekomendacji
+
+* Codzienny tracking sprintu
+* Identyfikacja blokerów
+* Współpraca z QA
+* Retrospektywy i usprawnienia
+
+Artefakty:
+
+* Roadmapa
+* Risk Register
+* Raport sprintu
 
 ---
 
-### **Tydzień 7–8: Praktyczny projekt**
-- Samodzielne prowadzenie mikro-projektu od początku do końca
-- Stworzenie Project Brief, backlogu, sesja planowania i podział na sprinty
-- Koordynacja prac, codzienne standupy, monitorowanie, testowanie
-- Finalna retrospektywa, raport podsumowujący, prezentacja wyników dla zespołu
+### Tydzień 7–8: Projekt praktyczny (PM)
 
-## 3. Materiały i narzędzia
-- **Szkolenia**: GitHub Skills, GitHub Learning Lab, Agile Coach, LinkedIn Learning
-- **Dokumentacja**: GitHub Docs, Projects, Markdown Guide, Scrum Guide
-- **Narzędzia**: GitHub Desktop, VS Code, Git, Notion/Confluence
-- **Wewnętrzne zasoby firmy**: repozytoria, team wiki, komunikatory (Slack/Teams)
+* Prowadzenie mikro-projektu end-to-end
+* Planowanie i podział na sprinty
+* Koordynacja zespołu
+* Odpowiedzialność za delivery
+* Raport końcowy
 
-## 4. Metryki sukcesu
-- Wiedza techniczna i obsługa GitHub
-- Skuteczne zarządzanie projektami oraz dokumentacją
-- Efektywna komunikacja techniczna i współpraca z zespołem
-- Biegłość w GitHub Projects, Markdown, podstawy CI/CD
-- Pozytywny feedback 360° od mentora, zespołu i QA
+---
 
-## 5. Podsumowanie i rekomendacje
-Po realizacji programu PM powinien samodzielnie prowadzić projekty w IT, posiadać solidne fundamenty i doświadczenie oraz umieć nieustannie doskonalić swoje kompetencje.
+## Ścieżka Tester / QA
 
-_Powodzenia w nowej roli Project Managera! Najlepsi PM nigdy nie przestają się uczyć._
+### Tydzień 3–4: Podstawy testowania
+
+**Tydzień 3: Rola QA w IT**
+
+* QA w cyklu życia oprogramowania
+* Typy testów: manualne, regresja, smoke, exploratory
+* Testowanie na różnych środowiskach
+
+**Tydzień 4: Testowanie wymagań**
+
+* Analiza User Stories pod kątem testów
+* Definition of Ready / Done
+* Pisanie Test Case’ów i Scenariuszy
+* Checklisty jakościowe
+
+Artefakty:
+
+* Test Plan
+* Test Cases
+* Checklisty QA
+
+---
+
+### Tydzień 5–6: Bug lifecycle i jakość
+
+**Tydzień 5: Zarządzanie defektami**
+
+* Bug lifecycle
+* Severity vs Priority
+* Reprodukowalność błędów
+* Bug reporty w GitHub Issues
+
+**Tydzień 6: QA w delivery**
+
+* Testy regresji
+* QA w CI/CD
+* Blokowanie release’u
+* Dashboard jakości
+
+Artefakty:
+
+* Szablon bug reportu
+* Dashboard QA
+* Raport jakości sprintu
+
+---
+
+### Tydzień 7–8: Projekt praktyczny (QA)
+
+* Przygotowanie Test Planu dla projektu
+* Testowanie wszystkich User Stories
+* Regresja przed release’em
+* Akceptacja lub blokada release’u
+* Raport jakościowy końcowy
+
+---
+
+## 5. Quality jako element procesu
+
+* QA uczestniczy w refinement backlogu
+* Testowanie rozpoczyna się przed kodowaniem
+* Wspólna Definition of Done
+* Release bez akceptacji QA jest niemożliwy
+
+---
+
+## 6. Materiały i narzędzia
+
+* GitHub Docs, GitHub Projects
+* GitHub Skills
+* Scrum Guide
+* Notion / Confluence
+* Slack / Teams
+
+---
+
+## 7. Metryki sukcesu
+
+**PM:**
+
+* Terminowość delivery
+* Jakość planowania
+* Komunikacja zespołowa
+
+**QA:**
+
+* Skuteczność wykrywania defektów
+* Jakość bug reportów
+* Stabilność release’ów
+
+**Wspólne:**
+
+* Spójność procesu
+* Przejrzystość GitHub
+* Feedback zespołu
+
+---
+
+## 8. Podsumowanie
+
+Program przygotowuje PM i QA do wspólnej pracy w zespole delivery, opierając się na procesach, jakości i odpowiedzialności. GitHub pełni rolę centralnej platformy zarządzania projektem i jakością.
