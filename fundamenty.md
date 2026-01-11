@@ -37,7 +37,7 @@ Ten dokument zawiera szczegółowe informacje i praktyczne zadania dla pierwszyc
 * **Repozytorium (repo)** - folder projektu na GitHubie zawierający wszystkie pliki i historię zmian
 * **Commit** - zapisana zmiana w repozytorium (jak "zapis" w historii)
 * **Branch** - równoległa wersja kodu (np. "main" - główna, "feature/login" - nowa funkcja)
-* **Merge** - połączenie zmian z jednego brancha do drugiego
+* **Merge** - połączenie zmian z jednego brancha do drugiego **[ZAAWANSOWANE]**
 * **Pull Request (PR)** - prośba o połączenie zmian z jednego brancha do drugiego
 
 ---
@@ -54,6 +54,8 @@ Każde repozytorium ma:
 - **README.md** - główny plik dokumentacji (wyświetla się na stronie głównej repo)
 - **Settings** - ustawienia (dostęp, integracje, szablony)
 - **Insights** - statystyki i metryki
+
+📚 **Dokumentacja GitHub:** [Tworzenie nowego repozytorium](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
 
 #### Zadania
 
@@ -107,6 +109,8 @@ Każde repozytorium ma:
 5. Wybierz opcję **"Commit directly to the main branch"**
 6. Kliknij **"Commit changes"**
 
+📚 **Dokumentacja GitHub:** [Edycja plików w repozytorium](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)
+
 **Zadanie 1.4: Tworzenie nowego pliku**
 
 1. W zakładce **Code**, kliknij przycisk **"Add file"** → **"Create new file"**
@@ -124,6 +128,8 @@ Każde repozytorium ma:
    - **Commit message:** "Dodano plik informacje.md"
 5. Kliknij **"Commit new file"**
 
+📚 **Dokumentacja GitHub:** [Tworzenie nowych plików](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-or-editing-files#creating-new-files)
+
 **Zadanie 1.5: Przegląd historii zmian**
 
 1. W zakładce **Code**, kliknij na liczbę commitów (np. "2 commits") obok nazwy brancha
@@ -133,6 +139,8 @@ Każde repozytorium ma:
    - Komentarzem commit message
 3. Kliknij na dowolny commit, aby zobaczyć szczegóły zmian (diff)
 
+📚 **Dokumentacja GitHub:** [Przeglądanie historii commitów](https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#viewing-commit-history)
+
 ---
 
 ### 1.3. Markdown jako standard dokumentacji
@@ -140,6 +148,8 @@ Każde repozytorium ma:
 #### Informacje
 
 **Markdown** to język formatowania tekstu używany powszechnie w dokumentacji IT. Pliki Markdown mają rozszerzenie `.md`.
+
+📚 **Dokumentacja GitHub:** [Podstawowe formatowanie i składnia zapisu](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 #### Podstawowa składnia Markdown
 
@@ -286,6 +296,10 @@ Issue może mieć:
 - **Milestone** - kamień milowy/wersja
 - **Projekty** - powiązanie z tablicą Kanban
 
+📚 **Dokumentacja GitHub:** 
+- [Tworzenie Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+- [Zarządzanie etykietami](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
+
 #### Zadania
 
 **Zadanie 2.1: Utworzenie pierwszego Issue**
@@ -360,6 +374,8 @@ Milestone pomaga:
 - Śledzić postęp
 - Planować release'y
 
+📚 **Dokumentacja GitHub:** [O milestone'ach](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
+
 #### Zadania
 
 **Zadanie 2.5: Utworzenie Milestone**
@@ -398,6 +414,10 @@ Karty na tablicy mogą reprezentować:
 - Issues
 - Pull Requests
 - Notatki (Notes)
+
+📚 **Dokumentacja GitHub:** 
+- [O Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+- [Tworzenie projektu](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
 
 #### Zadania
 
@@ -468,9 +488,14 @@ Typowy workflow:
 2. Wprowadzenie zmian
 3. Utworzenie PR
 4. Code Review (przegląd kodu)
-5. Merge (połączenie zmian)
+5. **[ZAAWANSOWANE]** Merge (połączenie zmian)
 
 **Uwaga:** W tym kursie używamy tylko GUI, więc branchy tworzymy przez interfejs GitHub.
+
+📚 **Dokumentacja GitHub:** 
+- [O Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [Tworzenie Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+- [Tworzenie i usuwanie branchy w repozytorium](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-the-default-branch-name-for-repositories-in-your-organization)
 
 #### Zadania
 
@@ -480,6 +505,8 @@ Typowy workflow:
 2. W polu wyszukiwania wpisz nową nazwę: `feature/dodaj-sekcje-kontakt`
 3. Kliknij **"Create branch: feature/dodaj-sekcje-kontakt from 'main'"**
 4. Zostaniesz przekierowany do nowego brancha
+
+📚 **Dokumentacja GitHub:** [Tworzenie i usuwanie branchy w repozytorium](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-or-editing-files#creating-a-file-on-a-branch)
 
 **Zadanie 2.12: Edycja pliku w nowym branchu**
 
@@ -516,6 +543,8 @@ Typowy workflow:
    - **Labels:** Dodaj etykietę "documentation"
 5. Kliknij **"Create pull request"**
 
+📚 **Dokumentacja GitHub:** [Tworzenie Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+
 **Zadanie 2.14: Przegląd Pull Request**
 
 1. W zakładce **Pull requests** otwórz utworzony PR
@@ -527,17 +556,24 @@ Typowy workflow:
    - Czerwone linie = usunięte
    - Możesz dodać komentarz do konkretnej linii (hover → ikona "+")
 
+📚 **Dokumentacja GitHub:** [Przeglądanie zmian w Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
+
 **Zadanie 2.15: Merge Pull Request**
 
 1. W otwartym PR, przewiń w dół
 2. Kliknij **"Merge pull request"**
-3. Wybierz typ merge:
-   - **Create a merge commit** - zachowuje historię brancha
-   - **Squash and merge** - łączy wszystkie commity w jeden
-   - **Rebase and merge** - liniowa historia
+3. **[ZAAWANSOWANE]** Wybierz typ merge:
+   - **Create a merge commit** - zachowuje historię brancha (podstawowa opcja)
+   - **Squash and merge** - łączy wszystkie commity w jeden (zaawansowane)
+   - **Rebase and merge** - liniowa historia (zaawansowane)
 4. Dla nauki wybierz **"Create a merge commit"**
 5. Kliknij **"Confirm merge"**
 6. Po merge możesz usunąć branch (przycisk **"Delete branch"**)
+
+📚 **Dokumentacja GitHub:** 
+- [Scalanie Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
+- **[ZAAWANSOWANE]** [O metodach scalania na GitHubie](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github)
+- **[ZAAWANSOWANE]** [Konfigurowanie scalania commitów dla pull requestów (squash)](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests)
 
 **Zadanie 2.16: Code Review (symulacja)**
 
@@ -554,7 +590,9 @@ Typowy workflow:
    - Dodaj komentarz: "Czy możemy dodać więcej szczegółów o licencji?"
 5. Odpowiedz na komentarz w **Conversation**
 6. Zaktualizuj plik (edytuj w branchu, dodaj commit)
-7. Merge PR
+7. **[ZAAWANSOWANE]** Merge PR (możesz wypróbować różne metody merge)
+
+📚 **Dokumentacja GitHub:** [Przeglądanie zmian w Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)
 
 ---
 
@@ -570,6 +608,11 @@ Typowy workflow:
 Szablony przechowujemy w folderze `.github` w repozytorium:
 - `.github/ISSUE_TEMPLATE/` - szablony Issues
 - `.github/pull_request_template.md` - szablon PR
+
+📚 **Dokumentacja GitHub:** 
+- [Szablony Issues i Pull Requests](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates)
+- [Tworzenie szablonu Issue](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-issue-templates-for-your-repository)
+- [Tworzenie szablonu Pull Request](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 
 #### Zadania
 
@@ -704,7 +747,8 @@ Szablony przechowujemy w folderze `.github` w repozytorium:
 - Używać etykiet, milestone'ów i przypisań
 - Tworzyć i konfigurować projekty Kanban
 - Tworzyć branchy przez GUI
-- Tworzyć i merge'ować Pull Requests
+- Tworzyć i merge'ować Pull Requests (podstawowe)
+- **[ZAAWANSOWANE]** Rozumieć różne metody merge (squash, rebase)
 - Tworzyć szablony dla Issues i PR
 
 ### Artefakty do utworzenia:
@@ -730,10 +774,24 @@ Odpowiedz na pytania:
 
 ## Przydatne linki
 
-- [GitHub Docs](https://docs.github.com)
-- [GitHub Skills](https://skills.github.com)
-- [Markdown Guide](https://www.markdownguide.org)
-- [GitHub Guides](https://guides.github.com)
+### Ogólne
+- [GitHub Docs](https://docs.github.com) - pełna dokumentacja GitHub
+- [GitHub Skills](https://skills.github.com) - interaktywne kursy GitHub
+- [Markdown Guide](https://www.markdownguide.org) - przewodnik po składni Markdown
+- [GitHub Guides](https://guides.github.com) - przewodniki GitHub
+
+### Konkretne tematy
+- [Tworzenie repozytorium](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
+- [Tworzenie Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+- [Zarządzanie etykietami](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
+- [Tworzenie Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+- [Scalanie Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
+- [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+
+### [ZAAWANSOWANE] Metody scalania
+- [O metodach scalania na GitHubie](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github)
+- [Konfigurowanie scalania commitów (squash)](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests)
+- [Konfigurowanie rebase merge](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-rebasing-for-pull-requests)
 
 ---
 
